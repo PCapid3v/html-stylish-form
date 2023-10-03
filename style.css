@@ -8,19 +8,62 @@ body {
     width: 300px;
     padding: 25px 40px;
     background-color: white;
-    display: grid;
-    grid-auto-columns: 100px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-sizing: border-box;
    
 }
 
 h1 {
-    grid-column: span 2;
-    place-self: center;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: black;
+    font-size: 2rem;
+    color: rgb(51, 51, 51);
     margin-top: 0;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.6rem;
+    color: rgb(109, 109, 109);
+    margin: 0;
+}
+
+
+
+input, button,select, textarea{
+    width: 200px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    opacity: 0.5;
+    font-weight: 900;
+}
+
+
+
+.btn {
+    background-image: linear-gradient(to right, rgb(180, 52, 209),rgb(41, 164, 205) );
+    color: aliceblue;
+    border-radius: 25px;
+    margin-top: 25px;
+    width: 100%;
+    opacity: 0.9;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+input:invalid {
+    background-color: darkred;
+    color: white;
+}
+
+input:valid {
+    background-color: darkgreen;
+    color: white;
+}
